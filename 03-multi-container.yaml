@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: multi_container
+  labels:
+    project: roboshop
+    environment: dev
+spec:
+  containers:
+  - name: nginx
+  - image: nginx
+  - name: almalinux
+  - image: almalinux:9
+    command: ['sh', '-c', 'echo "Hello, Kubernetes!" && sleep 20']
+#Pod updates may not change fields other than spec.containers[*].image, spec.initContainers[*].image, spec.activeDeadlineSeconds, spec.terminationGracePeriodSeconds, spec.tolerations or spec.schedulingGates. For spec.tolerations, you can only add new entries.
+# delete and re-apply if above error
