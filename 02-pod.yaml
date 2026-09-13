@@ -9,4 +9,4 @@ metadata:
 spec: # specifications
   containers:
   - name: nginx # contianer name
-  - image: nginx # by defauld it will get from docker_hub
+    image: nginx # by defauld it will get from docker_hub
