@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata: 
-  name: static-provisioning-example-PVC
+  name: static-provisioning-example-pvc
 spec:
   accessModes:
   - ReadWriteOnce
@@ -46,4 +46,4 @@ spec:
   volumes:
   - name: ebs-storage
     PersistentVolumeClaim:
-      claimName: static-provisioning-example-PVC
+      claimName: static-provisioning-example-pvc
