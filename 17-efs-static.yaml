@@ -6,7 +6,7 @@ spec:
   accessModes:
   - ReadWriteMany
   capacity:
-    storage: 10 Gi
+    storage: 10Gi
   volumeMode: Filesystem
   persistentVolumeReclaimPolicy: Retain
   nfs:
