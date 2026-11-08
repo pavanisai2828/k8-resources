@@ -40,7 +40,7 @@ spec:
   containers:
   - name: app
     image: nginx
-    VolumeMounts:
+    volumeMounts:
     - name: ebs-storage
       mountPath: /usr/share/nginx/html
   volumes:
