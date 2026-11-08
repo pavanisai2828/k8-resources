@@ -10,7 +10,7 @@ spec:
   volumeMode: Filesystem
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    server: fs-12345678.efs.region.amazonaws.com
+    server: fs-05c4ab0994ad783eb.efs.us-east-1.amazonaws.com
     path: "/"
 
 ---
