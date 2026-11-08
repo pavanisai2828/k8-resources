@@ -34,7 +34,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: static-provisioning-example-Pod
+  name: static-provisioning-example-pod
   namespace: practice
 spec:
   containers:
