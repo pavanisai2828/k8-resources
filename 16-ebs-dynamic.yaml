@@ -16,7 +16,7 @@ metadata:
   namespace: practice
 spec:
   accessModes:
-    ReadWriteOnce
+  - ReadWriteOnce
   storageClassName: ebs-storageclass-example
   resources:
     requests:
