@@ -24,6 +24,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata: 
   name: static-provisioning-example-pvc
+  namespace: practice
 spec:
   accessModes:
   - ReadWriteOnce
